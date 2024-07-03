@@ -1,0 +1,85 @@
+name: accounts
+
+services:
+
+  # Facilities
+  eureka-server:
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      args:
+        JAR_FILE: eureka-server/target/eureka-server-1.0.0-exec.jar
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    ports:
+      - '8761:8761'
+
+  admin-server:
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      args:
+        JAR_FILE: admin-server/target/admin-server-1.0.0-exec.jar
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    ports:
+      - '8085:8085'
+    depends_on: [eureka-server]
+
+  api-gateway:
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      args:
+        JAR_FILE: api-gateway/target/api-gateway-1.0.0-exec.jar
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    ports:
+      - '8765:8765'
+    depends_on: [eureka-server]
+
+  accounts-db:
+    image: postgres:16
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: accounts
+      POSTGRES_PASSWORD: accounts
+      POSTGRES_DB: accounts
+
+  # Services
+  accounts-service:
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      args:
+        JAR_FILE: accounts-service/target/accounts-service-1.0.0-exec.jar
+    ports:
+      - '8081:8081'
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    depends_on: [accounts-db, eureka-server]
+
+  accounts-mailsender:
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      args:
+        JAR_FILE: accounts-mailsender/target/accounts-mailsender-1.0.0-exec.jar
+    ports:
+      - '8083:8083'
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    depends_on: [eureka-server]
+
+  accounts-examiner:
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      args:
+        JAR_FILE: accounts-examiner/target/accounts-examiner-1.0.0-exec.jar
+    ports:
+      - '8082:8082'
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    depends_on: [eureka-server, accounts-service, accounts-mailsender]

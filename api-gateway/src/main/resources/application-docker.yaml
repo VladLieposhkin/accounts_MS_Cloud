@@ -1,0 +1,51 @@
+server:
+  port: 8765
+  forward-headers-strategy: framework
+
+management:
+  health:
+    livenessstate:
+      enabled: true
+    readinessstate:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://host.docker.internal:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+spring:
+  application:
+    name: api-gateway
+
+  boot:
+    admin:
+      client:
+        enabled: false
+  #        instance:
+  #          name: accounts-service
+  #          service-host-type: ip
+  #        url: http://localhost:8085
+
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: accounts-service-route
+          uri: lb://accounts-service
+#          uri: http://localhost:8081
+          predicates:
+            - Host=service.api.accounts
+
+
+
+

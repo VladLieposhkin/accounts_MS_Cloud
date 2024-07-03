@@ -1,0 +1,45 @@
+server:
+  port: 8083
+
+management:
+  health:
+    livenessstate:
+      enabled: true
+    readinessstate:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+spring:
+  application:
+    name: accounts-mailsender
+
+  boot:
+    admin:
+      client:
+        enabled: false
+#        instance:
+#          name: accounts-mailsender
+#          service-host-type: ip
+#        url: http://localhost:8085
+
+  mail:
+    host: smtp.example.com
+    port: 25
+    username: username
+    password: password
+    properties:
+      mail:
+        smtp:
+          auth:  true
+          starttls:
+            enable:  true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true

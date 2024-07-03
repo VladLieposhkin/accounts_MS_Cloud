@@ -1,0 +1,52 @@
+server:
+  port: 8081
+
+management:
+  health:
+    livenessstate:
+      enabled: true
+    readinessstate:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://host.docker.internal:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+spring:
+  application:
+    name:  accounts-service
+
+  boot:
+    admin:
+      client:
+        enabled: false
+#        instance:
+#          name: accounts-service
+#          service-host-type: ip
+#        url: http://host.docker.internal:8085
+
+  datasource:
+    url: jdbc:postgresql://host.docker.internal:5432/accounts
+    username: accounts
+    password: accounts
+    driverClassName: org.postgresql.Driver
+
+  flyway:
+    schemas:
+      - public
+      - accounts
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+#    show-sql: true
+
+

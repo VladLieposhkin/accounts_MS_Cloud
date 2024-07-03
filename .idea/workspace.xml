@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6f004a4-fa48-48eb-acb0-a978b1fa325e" name="Changes" comment="add admin-server">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0c4f5691-ae57-4c7f-b6c6-24d2e605eff5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0c4f5691-ae57-4c7f-b6c6-24d2e605eff5/storage_v2/_src_/database/accounts.5rudgA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0c4f5691-ae57-4c7f-b6c6-24d2e605eff5/storage_v2/_src_/database/accounts.5rudgA/schema/accounts.5rudgA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0c4f5691-ae57-4c7f-b6c6-24d2e605eff5/storage_v2/_src_/database/accounts.5rudgA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/0c4f5691-ae57-4c7f-b6c6-24d2e605eff5/storage_v2/_src_/database/accounts.5rudgA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9c71a751-db00-4650-995e-3a9861a63c07.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9c71a751-db00-4650-995e-3a9861a63c07/storage_v2/_src_/database/accounts.5rudgA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9c71a751-db00-4650-995e-3a9861a63c07/storage_v2/_src_/database/accounts.5rudgA/schema/accounts.5rudgA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9c71a751-db00-4650-995e-3a9861a63c07/storage_v2/_src_/database/accounts.5rudgA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9c71a751-db00-4650-995e-3a9861a63c07/storage_v2/_src_/database/accounts.5rudgA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-common/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-common/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-common/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-common/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-common/src/main/java/vl/example/accountscommon/AccountsCommonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-common/src/main/java/vl/example/accountscommon/dto/AccountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-common/src/main/java/vl/example/accountscommon/dto/ClientDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-common/src/main/java/vl/example/accountscommon/dto/ClientDetailedDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-common/src/main/java/vl/example/accountscommon/dto/CoinDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-common/src/main/java/vl/example/accountscommon/dto/CoinExternalDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-common/src/main/java/vl/example/accountscommon/dto/enums/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-common/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-examiner/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-examiner/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-examiner/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-examiner/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-examiner/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-examiner/src/main/java/vl/example/accountsexaminer/AccountsExaminerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-examiner/src/main/java/vl/example/accountsexaminer/config/ExaminerBeans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-examiner/src/main/java/vl/example/accountsexaminer/external/ExternalRestServiceRestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-examiner/src/main/java/vl/example/accountsexaminer/external/ExternalRestServiceRestClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-examiner/src/main/java/vl/example/accountsexaminer/internal/InternalMailServiceRestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-examiner/src/main/java/vl/example/accountsexaminer/internal/InternalRestServiceRestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-examiner/src/main/java/vl/example/accountsexaminer/internal/impl/InternalMailServiceRestClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-examiner/src/main/java/vl/example/accountsexaminer/internal/impl/InternalRestServiceRestClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-examiner/src/main/java/vl/example/accountsexaminer/job/DataProcessingJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-examiner/src/main/resources/application-docker.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-examiner/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-examiner/src/test/java/vl/example/accountsexaminer/AccountsExaminerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-mailsender/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-mailsender/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-mailsender/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-mailsender/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-mailsender/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-mailsender/src/main/java/vl/example/accountsmailsender/AccountsMailsenderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-mailsender/src/main/java/vl/example/accountsmailsender/rest/AccountRestControllerV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-mailsender/src/main/resources/application-docker.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-mailsender/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-mailsender/src/test/java/vl/example/accountsmailsender/AccountsMailsenderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/AccountsServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/entity/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/entity/Coin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/exception/CustomBadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/exception/CustomNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/exception/ExceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/mapper/ClientDetailedMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/mapper/ClientMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/mapper/CoinMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/repository/ClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/repository/CoinRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/rest/AccountRestControllerV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/rest/ClientRestControllerV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/rest/CoinRestControllerV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/service/ClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/service/CoinService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/service/impl/ClientServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/service/impl/CoinServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/validator/AccountValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/validator/ClientValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/vl/example/accountsservice/validator/CoinValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/resources/application-docker.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/resources/db/TestData.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/resources/db/migration/V1_0_0__BasicSchema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/resources/db/migration/V1_0_1__BasicData.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/test/java/vl/example/accountsservice/AccountsRestApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/test/java/vl/example/accountsservice/it/AccountRestControllerV1IT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/test/java/vl/example/accountsservice/it/ClientRestControllerV1IT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/test/java/vl/example/accountsservice/it/CoinRestControllerIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/test/java/vl/example/accountsservice/repository/AccountRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/test/java/vl/example/accountsservice/repository/ClientRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/test/java/vl/example/accountsservice/repository/CoinRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/test/java/vl/example/accountsservice/rest/AccountControllerV1Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/test/java/vl/example/accountsservice/rest/ClientControllerV1Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/test/java/vl/example/accountsservice/rest/CoinControllerV1Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/test/java/vl/example/accountsservice/service/impl/AccountServiceImplTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/test/java/vl/example/accountsservice/service/impl/ClientServiceImplTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/test/java/vl/example/accountsservice/service/impl/CoinServiceImplTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/test/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-server/src/main/java/vl/example/adminserver/AdminServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-server/src/main/resources/application-docker.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-server/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/vl/example/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application-docker.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/vl/example/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-docker.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/admin-server">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2iQ5C79TNpXcke3g2cFve6BgGan" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Maven.accounts-common [clean,package].executor": "Run",
+    "Maven.accounts-parent [clean,package].executor": "Run",
+    "Maven.accounts-parent [clean,test,package].executor": "Run",
+    "Maven.accounts-parent [clean].executor": "Run",
+    "Maven.accounts-parent [package].executor": "Run",
+    "Maven.accounts-service [clean,package,verify].executor": "Run",
+    "Maven.accounts-service [clean,package].executor": "Run",
+    "Maven.accounts-service [package].executor": "Run",
+    "Maven.admin-server [clean,package].executor": "Run",
+    "Maven.api-gateway [clean,package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AccountsCommonApplication.executor": "Run",
+    "Spring Boot.AccountsExaminerApplication.executor": "Run",
+    "Spring Boot.AccountsMailsenderApplication-2.executor": "Run",
+    "Spring Boot.AccountsMailsenderApplication.executor": "Run",
+    "Spring Boot.AccountsServiceApplication-2.executor": "Run",
+    "Spring Boot.AccountsServiceApplication.executor": "Run",
+    "Spring Boot.AdminServerApplication.executor": "Run",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
+    "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.vl.example.accountsmailsender.AccountsMailsenderApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "graalvm-jdk-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/v.lieposhkin/Java/Projects/accounts_MS_Cloud/accounts-parent/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2877698",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api-gateway/src/main/resources" />
+      <recent name="$PROJECT_DIR$/eureka-server/src/main/resources" />
+      <recent name="$PROJECT_DIR$/admin-server/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AccountsMailsenderApplication-2">
+    <configuration name="AccountsCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="accounts-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="vl.example.accountscommon.AccountsCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountsExaminerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="accounts-examiner" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="vl.example.accountsexaminer.AccountsExaminerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountsMailsenderApplication-2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="accounts-mailsender" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="vl.example.accountsmailsender.AccountsMailsenderApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8093" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountsMailsenderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="-Dserver.port=8093" />
+      <module name="accounts-mailsender" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="vl.example.accountsmailsender.AccountsMailsenderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountsServiceApplication-2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="accounts-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="vl.example.accountsservice.AccountsServiceApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8091" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="accounts-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="vl.example.accountsservice.AccountsServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="admin-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="vl.example.adminserver.AdminServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vl.example.adminserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="vl.example.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="vl.example.eurekaserver.EurekaServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vl.example.eurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AccountsServiceApplication-2" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.AccountsCommonApplication" />
+      <item itemvalue="Spring Boot.AccountsExaminerApplication" />
+      <item itemvalue="Spring Boot.AccountsMailsenderApplication" />
+      <item itemvalue="Spring Boot.AccountsMailsenderApplication-2" />
+      <item itemvalue="Spring Boot.AccountsServiceApplication" />
+      <item itemvalue="Spring Boot.AdminServerApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AdminServerApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-graalvm-jdk-21.0.2-4caba194b151-b5c216e9" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6f004a4-fa48-48eb-acb0-a978b1fa325e" name="Changes" comment="" />
+      <created>1719409829315</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719409829315</updated>
+      <workItem from="1719409830342" duration="685000" />
+      <workItem from="1719410743348" duration="98000" />
+      <workItem from="1719410969793" duration="697000" />
+      <workItem from="1719477973084" duration="2133000" />
+      <workItem from="1719480114571" duration="156000" />
+      <workItem from="1719480284242" duration="118000" />
+      <workItem from="1719480472021" duration="171000" />
+      <workItem from="1719480645953" duration="1903000" />
+      <workItem from="1719482773776" duration="774000" />
+      <workItem from="1719483560140" duration="18391000" />
+      <workItem from="1719836605902" duration="9387000" />
+      <workItem from="1719908240421" duration="13059000" />
+      <workItem from="1719994694779" duration="1236000" />
+      <workItem from="1719996248486" duration="609000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1719409954425</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719409954425</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add admin-server">
+      <option name="closed" value="true" />
+      <created>1719481034324</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719481034324</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add admin-server">
+      <option name="closed" value="true" />
+      <created>1719490781252</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719490781252</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add admin-server">
+      <option name="closed" value="true" />
+      <created>1719510541949</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719510541949</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="add admin-server" />
+    <option name="LAST_COMMIT_MESSAGE" value="add admin-server" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/accounts-examiner/src/main/java/vl/example/accountsexaminer/internal/impl/InternalRestServiceRestClientImpl.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
